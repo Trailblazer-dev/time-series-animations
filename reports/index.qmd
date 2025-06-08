@@ -1,0 +1,38 @@
+---
+title: "Time Series Animation Reports"
+author: "Your Name"
+format: html
+toc: true
+---
+
+# Overview
+
+This collection of reports provides detailed analysis of time-series animations created for data visualization and investment insights. Each report examines different datasets through animated visualizations, extracting key trends and actionable intelligence.
+
+## Available Reports
+
+### [Global Population Trends: Investment Implications](population_animation_report.html)
+
+An analysis of changing global population dynamics among major countries, with specific focus on investment opportunities, emerging markets, and strategic implications.
+
+![Population Animation Preview](population_final_frame.png)
+
+### [Population Narrative](population_story.html)
+
+A storytelling approach to the population data, providing historical context and future projections in a narrative format.
+
+## How to Use These Reports
+
+These reports are designed to be:
+
+1. **Comprehensive** - Providing both data analysis and strategic interpretation
+2. **Visual** - Including animated visualizations that make trends immediately apparent
+3. **Actionable** - Focusing on implications rather than just observations
+
+For best results, review the animations in conjunction with the written analysis, and consider how the identified trends might impact your specific objectives.
+
+## Technical Details
+
+All visualizations were created using Python, primarily with matplotlib and pandas. The reports are generated using Quarto, allowing for interactive elements and seamless integration of code, visualizations, and analysis.
+
+For technical details on how the visualizations were created, please refer to the corresponding Python scripts in the main project directory.

@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: ../website
+  render:
+    - "*.qmd"
+    - "*.md"
+  resources:
+    - "../population_animation.mp4"
+    - "../population_final_frame.png"
+    - "../flags"
+
+website:
+  title: "Population Trends Analysis"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: population_animation_report.qmd
+        text: Population Report
+      - href: population_story.md
+        text: Population Story
+  
+  page-footer:
+    center: 
+      - text: "Copyright © 2023 - Population Trends Analysis"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-fold: true
+    code-summary: "Show the code"
